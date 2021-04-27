@@ -25,3 +25,17 @@ ul{
     list-style-position: inside;
 
 }
+
+#wire{
+    max-width: 95%;
+    height: auto;
+
+
+}
+
+#aple{
+    max-width: 25%;
+    height: auto;
+    border-radius: 50%;
+
+}
