@@ -1,3 +1,8 @@
+body{
+    background: url("https://images.pexels.com/photos/992734/pexels-photo-992734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")no-repeat center center fixed;
+    text-align: center;
+}
+
 
 #topA{
     text-align: center;
@@ -12,4 +17,9 @@ p{
     max-height: 25rem;
     max-width: 20rem;
 }
-
+.d-block {
+    max-width: 100%;
+    max-height: 35rem;
+    object-fit: cover;
+    margin: 0 auto 0 auto;
+}
