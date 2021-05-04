@@ -13,8 +13,9 @@ p{
     text-align: center;
 }
 #imgFam{
-    margin-top: 25rem;
-    max-height: 25rem;
+    padding: 1rem;
+    margin: 1rem 2rem 10rem;
+    max-height: 20rem;
     max-width: 20rem;
     float: left;
 }
@@ -43,5 +44,6 @@ p{
     opacity: 95%;
 }
 #jumbBott{
+    padding: 2rem 4rem 4rem;
     opacity: 95%;
 }
