@@ -53,3 +53,7 @@ p{
      float: left;
      padding: 1rem 2rem 5rem;
  }
+
+#cardThang {
+    margin: 0 auto 3rem auto;
+}
