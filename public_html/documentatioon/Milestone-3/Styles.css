@@ -9,7 +9,7 @@ body{
     color: #a51b52;
 
 }
-p{
+#aboutMe{
     text-align: center;
 }
 #imgFam{
@@ -23,7 +23,7 @@ p{
 
     max-width: 100%;
     max-height: 35rem;
-    object-fit: cover;
+    object-fit: contain;
     margin: 0 auto 0 auto;
 }
 
@@ -37,11 +37,14 @@ p{
 }
 
 #carousel{
-    text-align:revert;
+    text-align:right;
+
+
 }
 
 #jumbMid {
     opacity: 95%;
+
 
 }
 #jumbBott{
@@ -51,9 +54,12 @@ p{
 #menu{
     color: #a51b52;
      float: left;
-     padding: 1rem 2rem 5rem;
+     padding: 1rem 10rem 5rem;
+    border: 20px solid lightsalmon;
+    max-width: 700px;
+    max-height:fit-content;
+    width: 70%;
+    margin: 10rem auto;
  }
 
-#cardThang {
-    margin: 0 auto 3rem auto;
-}
+
