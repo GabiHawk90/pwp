@@ -11,10 +11,10 @@ body{
 }
 #aboutMe{
     text-align: center;
+    margin-top: 2rem;
 }
 #imgFam{
-    padding: 1rem;
-    margin: 1rem 2rem 10rem;
+
     max-height: 20rem;
     max-width: 20rem;
     float:left;
@@ -38,13 +38,14 @@ body{
     margin: 0 auto 0 auto;
 }
 #jumbMid {
+    background-color: gainsboro;
     opacity: 95%;
-    padding: 1rem 4rem 4rem;
     margin-top: 10rem;
     margin-bottom: 15rem;
 }
 #jumbBott{
-    padding: 1rem 4rem 4rem;
+    background-color: gainsboro;
+    padding-bottom: 5rem;
     opacity: 95%;
 }
 #menu{
@@ -68,7 +69,7 @@ body{
     border: 20px solid lightsalmon;
     max-width: 700px;
     max-height:fit-content;
-    width: 70%;
+
     margin: 10rem auto;
     opacity: 95%;
 }
@@ -83,23 +84,22 @@ body{
     width: 85%;
 }
 
-.center-diamond {
-    background: aqua;
+hr.style2 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+#Mbutton{
+    margin-top: 5rem;
+    color: #a51b52;
+
 }
 
-:before{
-    content: "";
-     width: 6px;
-     height: 6px;
-     background:aqua;
-     display: inline-block;
-     border: 2px solid aqua;
-     position: absolute;
-     top: -5px;
-     left: 50%;
-     margin: 0 0 0 -3px;
-     transform:rotate(45deg);
-     -ms-transform:rotate(45deg); /* IE 9 */
-     -webkit-transform:rotate(45deg); /* Opera, Chrome, and Safari */
- }
-
+#ThankY{
+    color: #a51b52;
+}
+h2{
+    text-align:center;
+    padding-top: 5rem;
+    color: #a51b52;
+}
