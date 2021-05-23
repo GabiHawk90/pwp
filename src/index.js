@@ -4,7 +4,7 @@ const morgan = require("morgan")
 const bodyParser = require("body-parser")
 const {check, validationResult} = require("express-validator")
 const Recaptcha = require("express-recaptcha").RecaptchaV2
-require('dotenv').config()
+
 const Mailgun = require("mailgun-js")
 
 const mailgun = Mailgun({apiKey: process.env.MAILGUN_API_KEY, domain:process.env.MAILGUN_DOMAIN})
@@ -40,7 +40,7 @@ const handlePostRequest = (request, response, next) => {
 
     response.append("Content-Type", "text/html")
 
-    //TODO remove header when Docker has been successfully added.
+    //TODO remove header when Dockerfile has been successfully added.
     response.append("Access-Control-Allow-Origin", "*")
 
     if (request.recaptcha.error) {
