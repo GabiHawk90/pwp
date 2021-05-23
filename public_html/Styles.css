@@ -4,6 +4,7 @@ body{
 
 }
 #topA{
+    font-family: 'Pattaya', sans-serif;
     text-align: center;
     color: #a51b52;
 
@@ -18,20 +19,23 @@ body{
     max-height: 20rem;
     max-width: 20rem;
     float:left;
+    border: .5rem solid lightsalmon;
 }
 .d-block {
-    max-width: 100%;
-    max-height: 35rem;
-    margin: 5rem auto 3rem auto;
+    max-width: 90%;
+    max-height: 30rem;
+    margin: .6rem auto 3rem auto;
 }
 #jumbimg{
     background:url("https://images.unsplash.com/photo-1522184216316-3c25379f9760?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")no-repeat center center fixed;
     text-align: center;
     position: center;
     margin-top: 3rem;
+
 }
 #contaT {
     opacity: 90%;
+    border: .5rem solid lightsalmon;
 }
 #carousel{
     text-align:center;
@@ -49,6 +53,8 @@ body{
     opacity: 95%;
 }
 #menu{
+    font-size: 1.2rem;
+    font-family: 'Pattaya', sans-serif;
     color: #a51b52;
    text-align: center;
     /*padding: 1rem 2rem 1rem 2rem;*/
@@ -63,13 +69,12 @@ body{
 
 
 #order{
-
+    font-family: 'Pattaya', sans-serif;
     color: #a51b52;
     text-align: center;
-    border: 20px solid lightsalmon;
+    border: 20px solid #3a7584;
     max-width: 700px;
     max-height:fit-content;
-
     margin: 10rem auto;
     opacity: 95%;
 }
@@ -90,16 +95,48 @@ hr.style2 {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 #Mbutton{
-    margin-top: 5rem;
+    font-size: 2rem;
+    font-family: 'Pattaya', sans-serif;
+    margin-top: 3rem;
     color: #a51b52;
+    padding: 1rem 2rem ;
+    opacity: 95%;
+
 
 }
 
 #ThankY{
     color: #a51b52;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 1.3rem;
+    border: .2rem solid lightsalmon;
 }
 h2{
+    font-size: 3rem;
+    margin-top: .75rem;
     text-align:center;
-    padding-top: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     color: #a51b52;
+    font-family: 'Pattaya', sans-serif;
+    border: .8rem solid lightsalmon;
+    border-radius: 10px;
+    background-color: #489cb1;
+}
+#subut{
+    font-size: 1.3rem;
+    color: #a51b52;
+    border: .2rem solid lightsalmon;
+
+}
+#welcome{
+    text-align: center;
+    padding: 3rem 3rem 3rem 3rem;
+    background-color: gainsboro;
+    opacity: 95%;
+
+}
+
+#wcol{
+    text-align: center;
 }
