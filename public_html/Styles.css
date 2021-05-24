@@ -101,7 +101,7 @@ hr.style2 {
     color: #a51b52;
     padding: 1rem 2rem ;
     opacity: 95%;
-
+    border: .2rem solid lightsalmon;
 
 }
 
@@ -109,7 +109,7 @@ hr.style2 {
     color: #a51b52;
     font-family: 'Pattaya', sans-serif;
     font-size: 1.3rem;
-    border: .2rem solid lightsalmon;
+
 }
 h2{
     font-size: 3rem;
