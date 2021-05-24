@@ -1,8 +1,12 @@
 body{
     background: url("https://images.pexels.com/photos/4199098/pexels-photo-4199098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")no-repeat center center fixed ;
     text-align: center;
-
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
 #topA{
     font-family: 'Pattaya', sans-serif;
     text-align: center;
@@ -18,7 +22,6 @@ body{
 
     max-height: 20rem;
     max-width: 20rem;
-    float:left;
     border: .5rem solid lightsalmon;
 }
 .d-block {
@@ -27,7 +30,7 @@ body{
     margin: .6rem auto 3rem auto;
 }
 #jumbimg{
-    background:url("https://images.unsplash.com/photo-1522184216316-3c25379f9760?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")no-repeat center center fixed;
+    background:url("https://images.unsplash.com/photo-1522184216316-3c25379f9760?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")no-repeat center top fixed;
     text-align: center;
     position: center;
     margin-top: 3rem;
@@ -112,7 +115,7 @@ hr.style2 {
 
 }
 h2{
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: .75rem;
     text-align:center;
     padding-top: 2rem;
@@ -136,7 +139,19 @@ h2{
     opacity: 95%;
 
 }
-
 #wcol{
     text-align: center;
 }
+#recap{
+    text-align: center;
+}
+.g-recaptcha{
+   display: inline-block;
+}
+img {
+
+    width:  700px;
+    height: 700px;
+    object-fit: cover;
+}
+
