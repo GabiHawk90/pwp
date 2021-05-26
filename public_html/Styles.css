@@ -17,7 +17,9 @@ body{
 #aboutMe{
     text-align: center;
     margin-top: 2rem;
-    padding-left: 3rem;
+   align-items: center;
+    padding-left: 2.2rem;
+
 }
 #imgFam{
 
@@ -155,4 +157,6 @@ img {
     height: 700px;
     object-fit: cover;
 }
-
+.p{
+    text-align: center;
+}
